@@ -25,10 +25,7 @@ virtualenv -p /opt/pypy/bin/pypy ~/pypy_env
 source ~/pypy_env/bin/activate
 
 PYTHON DEPENDENCIES:
-pip install mitmproxy
-pip install beautifulsoup4
-pip install lxml
-pip install plumbum
+pip install -r requirements.txt
 
 RUN:
 cd ~/ascii-proxy
